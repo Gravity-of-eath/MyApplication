@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="testoffpro.hmj.yibin.testoffpro.InviteFriendActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="10dp"
+        android:text="@string/my_invite_code" />
+
+
+    <ImageView
+        android:id="@+id/invite_barcode"
+        android:layout_width="180dp"
+        android:layout_height="180dp"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/nav_per"
+        android:scaleType="centerCrop" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="5dp"
+        android:text="@string/my_invite_note"
+        android:textColor="@color/hint_text_color" />
+
+    <TextView
+        android:id="@+id/invite_url"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:background="@drawable/invita_bg"
+        android:padding="20dp"
+        android:text="dasdasdasdasdasfsdafdsffffffffffffffffffffffffffddddddddddddssssssssssssssssssssdfsfsdfsdfsdfsfsdfs" />
+
+    <Button
+        android:id="@+id/invite_copy"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/loginbtn_bg"
+        android:onClick="onClickCopy"
+        android:text="@string/copy"
+        android:textAllCaps="false"
+        android:textColor="@color/white" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:gravity="center_horizontal"
+        android:padding="10dp"
+        android:text="@string/shar_2_friend_2" />
+
+    <Button
+        android:id="@+id/invite_shar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:background="@drawable/loginbtn_bg"
+        android:onClick="onClickCopy"
+        android:text="@string/shar_2_friend"
+        android:textAllCaps="false" />
+
+
+</LinearLayout>

@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/gray2"
+    android:fillViewport="true"
+    tools:context="testoffpro.hmj.yibin.testoffpro.CCSActivity">
+
+    <ListView
+        android:id="@+id/chat_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/aaaaaa"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:background="@color/trans"
+        android:divider="@color/trans"
+        android:layout_marginBottom="5dp"
+        android:scrollbars="none" />
+
+    <LinearLayout
+        android:id="@+id/aaaaaa"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="vertical">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/chat_tool"
+            android:background="@drawable/round_top"
+            android:orientation="horizontal"
+            android:padding="10dp">
+
+            <ImageView
+                android:id="@+id/chat_add"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/icon_jia" />
+
+            <EditText
+                android:id="@+id/input"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_weight="1"
+                android:background="@drawable/input_bg"
+                android:imeOptions="actionSend"
+                android:maxHeight="40dp"
+                android:paddingLeft="5dp"
+                android:singleLine="true" />
+
+            <testoffpro.hmj.yibin.testoffpro.recodview.AudioRecordButton
+                android:id="@+id/recordButton"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="3dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="3dp"
+                android:layout_weight="1"
+                android:textAllCaps="false"
+                android:background="@drawable/button_recordnormal"
+                android:gravity="center"
+                android:minHeight="0dp"
+                android:padding="5dp"
+                android:text="@string/normal"
+                android:textColor="#727272"
+                android:visibility="gone" />
+
+            <Button
+                android:id="@+id/send"
+                android:layout_width="60dp"
+                android:layout_height="match_parent"
+                android:background="@drawable/loginbtn_bg"
+                android:text="@string/send"
+                android:textAllCaps="false" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/chat_tool"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:background="@drawable/round_bottom"
+            android:gravity="center_horizontal"
+            android:layout_marginBottom="5dp"
+            android:descendantFocusability="blocksDescendants"
+            android:orientation="horizontal"
+            android:padding="10dp">
+
+            <TextView
+                android:id="@+id/voice"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:drawableTop="@drawable/icon_yuyin"
+                android:gravity="center_horizontal"
+                android:text="@string/voice" />
+
+            <TextView
+                android:id="@+id/image"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:drawableTop="@drawable/icon_tupian"
+                android:gravity="center_horizontal"
+                android:text="@string/image" />
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

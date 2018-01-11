@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/dialog_iv"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_margin="2dp"
+        android:gravity="center"
+        android:src="@drawable/ppp"
+        android:layout_alignParentTop="true"
+        android:scaleType="center" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"
+        android:layout_below="@+id/dialog_iv"
+        android:text="执行中..."
+        android:layout_marginTop="-10dp"
+        android:gravity="center"
+        android:layout_alignEnd="@+id/dialog_iv"
+        android:layout_alignStart="@+id/dialog_iv" />
+</RelativeLayout>

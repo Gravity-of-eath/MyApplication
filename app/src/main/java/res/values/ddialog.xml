@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="dialog_magin">40dp</dimen><!-- dialog 左右边距 -->
+    <dimen name="dialog_title_textsize">20sp</dimen>
+    <color name="dialog_title_textcolor">#ff494847</color>
+    
+      <style name="Theme_dialog" parent="@android:style/Theme.Dialog">
+        <item name="android:windowBackground">@*android:color/transparent</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:background">#00000000</item>
+        <item name="android:backgroundDimEnabled">true</item>
+    </style>
+    <style name="myDialogTheme" parent="@android:style/Theme.Dialog">
+        <item name="android:windowBackground">@android:color/transparent</item>
+
+    </style>
+
+    <style name="dialog" parent="@android:style/Theme.Dialog">
+        <item name="android:windowBackground">@android:color/background_dark</item>
+        <item name="android:windowFullscreen">true</item>
+    </style>
+    
+      
+       <drawable name="pb_dialog_bg">#dddcd8</drawable>
+       <drawable name="dialog_bg">#ffffff</drawable>
+       
+       <color name="dialog_bt_bg_press">#e5e5e5</color>
+       <color name="dialog_bt_bg_normal">#efefef</color>
+</resources>

@@ -1,0 +1,217 @@
+<resources>
+    <string name="app_name">Shokey</string>
+    <string name="action_settings">Settings</string>
+    <string name="network_is_not_available">Network connection is failed,Please check the network Settings</string>
+    <string name="button_scan_two_dimension_code">Qr code Scanning</string>
+    <string name="qrcode_tip_in_discount">Qr code to be included in the box,Immediate automatic scanning</string>
+    <string name="button_qrcode_scanner_photo">Photo Album</string>
+    <string name="button_qrcode_scanner_light">Light</string>
+    <string name="button_qrcode_scanner_my_qrcode">MyQrCode</string>
+    <string name="creatqrcode">Create a Qr code</string>
+    <string name="scanning">Scanning...</string>
+    <string name="scan_qrcode_processing">Scanned,Processing</string>
+    <string name="text_scan_result">The result of scanning：</string>
+    <string name="create_two_dimension_code_hint">Enter the need to generate qr code information</string>
+    <string name="add_by_myself">Manually add</string>
+    <string name="action_new_add">newly increased</string>
+    <string name="action_more">Setting</string>
+    <string name="action_help">Help</string>
+    <string name="action_refresh">Refresh</string>
+    <string name="about_more">about</string>
+    <string name="updates_more">Check For Updates</string>
+    <string name="action_add_itc">add</string>
+    <string name="Image_describe">ImageView/ImageButton</string>
+    <string name="settings_about_copyright">厦门特网信息科技有限公司 版权所有</string>
+    <string name="copyright">"Copyright(©) 2016-2017  Rights Reserved."</string>
+    <string name="help_title_name">厦门特网TT天天关键词帮助说明</string>
+    <string name="unit_temperature">℃</string>
+    <string name="unit_humidity">%</string>
+    <string name="t_h_default_value">--</string>
+    <string name="power_normal">Normal</string>
+    <string name="date_default_value">----------</string>
+    <string name="time_default_value">--:--:--</string>
+    <string name="construction_text">in construction......</string>
+    <string name="insert_card">Please insert the sd card</string>
+    <string name="down_fail">download failed</string>
+    <string name="is_downing">downloading</string>
+    <string name="down_sucess">downloading success</string>
+    <string name="soft_update_updatebtn">Update</string>
+    <string name="soft_update_later">Update later</string>
+    <string name="soft_updating">be updating</string>
+    <string name="soft_update_cancel">cancel</string>
+    <string name="soft_update_no">Is the latest version</string>
+    <string name="login_btn">Login</string>
+    <string name="exit">Verify</string>
+    <string name="exit_tip">Need to login again,Confirm exit?</string>
+    <string name="confirm">Confirm</string>
+    <string name="cancel">Cancel</string>
+    <string name="certain">Confirm</string>
+    <string name="wait">Waiting</string>
+    <string name="next_button_txt">Next</string>
+    <string name="complete_txt">Finish</string>
+    <string name="common_passwd_error">Password is wrong</string>
+    <string name="login_password_tv_txt">Password</string>
+    <string name="please_input_phonenumber_txt">Pleas input your phone number</string>
+    <string name="update_exit">Exit</string>
+    <string name="sms_verify_code_received">Please input security code</string>
+    <string name="please_input_sign_txt">Please input json string</string>
+    <string name="please_input_userid_txt">Please input your userid</string>
+    <string name="wifi_set">Configuration Wi-Fi</string>
+    <string name="added_camera_success_txt">Add Success</string>
+    <string name="open_camera_fail">Open camera error,Please input the serial number</string>
+    <string name="serial_number_error">The serial number error</string>
+    <string name="realplay_password_error_title">Please input the equipment number</string>
+    <string name="one">1</string>
+    <string name="two">2</string>
+    <string name="normal">Push speak</string>
+    <string name="recording">Loosen send</string>
+    <string name="want_to_cancle">Loosen cancle</string>
+    <string name="shouzhishanghua">Up slide to cancel</string>
+    <string name="tooshort">The recording time is too short</string>
+    <string name="title_activity_tiao_kuan">TiaoKuanActivity</string>
+    <string name="pull_to_refresh_pull_label">Pull to refresh</string>
+    <string name="pull_to_refresh_release_label">Pull to refresh release</string>
+    <string name="pull_to_refresh_refreshing_label">Refreshing\u2026</string>
+    <string name="pull_to_refresh_footer_release_label">After loading</string>
+    <string name="pull_to_refresh_footer_pull_label">The load more</string>
+    <string name="pull_to_refresh_footer_refreshing_label">Loading\u2026</string>
+    <string name="title_activity_login">loginActivity</string>
+    <!--登录注册相关-->
+    <string name="email">(E-mail)</string>
+    <string name="input_email"><font size="12">Please enter you e-mail</font></string>
+    <string name="pwd">Password</string>
+    <string name="pwd_">Password:</string>
+    <string name="login_pwd">Password:</string>
+    <string name="input_pwd"><font size="12">Please entert you password</font></string>
+    <string name="affirm_pwd">Confirm password:</string>
+    <string name="inv_code">Invitation code :</string>
+    <string name="please_inv_code"><font size="12">Please enter you invitation code (optional)</font></string>
+    <string name="please_affirm_pwd"><font size="12">Please confirm you password</font></string>
+    <string name="auth_code">Verification code</string>
+    <string name="auth_code_">Verification code:</string>
+    <string name="input_auth_code"><font size="12">Please enter verification code</font></string>
+    <string name="commit">Submit</string>
+    <string name="back">Back</string>
+    <string name="login">Login</string>
+    <string name="login_now">Have an account, log in now</string>
+    <string name="regester">Register</string>
+    <string name="free_regester">Register</string>
+    <string name="forget_pwd">Forget Password ？</string>
+    <string name="forget_pwd_">Forget Password</string>
+    <string name="login_now_usepwd">Login use the password</string>
+    <string name="email_not_null">Email not nullable!</string>
+    <string name="pwd_not_null">Password not nullable!</string>
+    <string name="email_or_pwd_error">Email or password error！</string>
+    <string name="login_ing">Logining！</string>
+    <string name="register_ing">Registering！</string>
+    <string name="resetPassword_ing">Resetting！</string>
+    <string name="bindEmail_ing">Binding！</string>
+    <string name="doSign_ing">Signing！</string>
+    <string name="buyCoin_ing">Shopping！</string>
+    <string name="addOrUpdateAddress_ing">Update！</string>
+    <string name="setDefaultAddress_ing">Setting！</string>
+    <string name="getActivityList_ing">Getting！</string>
+    <string name="net_error"> Failed ! net error</string>
+    <string name="auth_code_not_nullable">Auth code not nullable</string>
+    <string name="pwd_again_not_nullable">Affirm you password </string>
+    <string name="pwd_not_eq_pwda">Password NOT equals affirmPassword</string>
+    <string name="success_login">Successful Please Login</string>
+    <string name="mail_code"><font size="12">Get email verification code</font></string>
+    <string name="success_2_send">Send Success</string>
+    <string name="faile_2_send">Send failure check email address</string>
+    <string name="jishi"><font size="12">(s) retry later</font></string>
+    <string name="note_title">Notice</string>
+    <string name="note_msg">If you are using QQ mailbox, verification code was not found in the email in your inbox, please try to look for in the "Trash"</string>
+
+
+    <!--个人首页-->
+    <string name="username">Username</string>
+    <string name="personinfo">Personal Information</string>
+    <string name="my_order">My Order</string>
+    <string name="my_financial">My Financial</string>
+    <string name="bind_email">Bind the rebate mailbox</string>
+    <string name="c_c_s">Contact Customer Service</string>
+    <string name="invite_friend">Invite Friend</string>
+    <string name="my_message">My Message</string>
+    <string name="my_rcv_address">My Receiving Address</string>
+    <string name="common_problems">Common Problems</string>
+    <string name="no_bind">no bind</string>
+    <string name="unread">unread</string>
+    <string name="personal">Personal</string>
+    <string name="exit_">Exit</string>
+    <string name="nikename">Name</string>
+
+    <!--个人信息-->
+    <string name="shoping_account">Shoping Account:</string>
+    <string name="facebook">Facebook:</string>
+    <string name="email_">E-mail:</string>
+    <string name="receive_address">Receive Address:</string>
+    <string name="modify_password">Modify Password:</string>
+
+    <!--我的财务-->
+    <!--提现-->
+    <string name="withdraw">WithDraw</string>
+    <string name="total_balance">Total Balance</string>
+    <string name="manage_address">Management of address</string>
+    <!--修改密码-->
+    <string name="modify_password_">Modify Password</string>
+    <string name="get_verification_code"><font size="12">Get Verification Code</font></string>
+    <string name="enter_phone_number"><font size="12">Enter phone number</font></string>
+    <string name="enter_verification_code"><font size="12">Enter verification code</font></string>
+    <string name="set_password"><font size="12">Please set Password</font></string>
+    <string name="make_sure_password"><font size="12">Please make sure password</font></string>
+
+    <!--收货地址-->
+    <string name="add_address">Add new Address</string>
+    <string name="config_address">Config ddress</string>
+    <string name="edit">Edit</string>
+    <string name="save">Save</string>
+    <string name="delete">Delete</string>
+    <string name="duf_address">Default address</string>
+    <string name="modify_address">Modify Address Infomation</string>
+    <string name="billing_address">Billing Address</string>
+    <string name="Are_you_sure">Are you sure ?</string>
+    <string name="street">Street</string>
+    <string name="city">City *</string>
+    <string name="province">Province *</string>
+    <string name="address_number">Postcode</string>
+    <string name="phone_number">Phone number *</string>
+
+    <!--我的订单-->
+    <string name="trial_order">Trial Order</string>
+    <string name="compaign_order">Compaign Order</string>
+    <string name="off_order">90% off Order</string>
+
+    <!--邀请好友-->
+    <string name="my_invite_code">My Invitation Code</string>
+    <string name="my_invite_note">Scan Barcode join to have a trial</string>
+    <string name="my_invite_copy">Copy my invitation code</string>
+    <string name="shar_2_friend">Shar to friends right now</string>
+    <string name="shar_2_friend_2">Shar and invite friends to join in, you will win rebate</string>
+
+    <!--客服-->
+    <string name="chose">Select Source</string>
+    <string name="gallery">Gallery</string>
+    <string name="camera">Camera</string>
+
+    <!--绑定邮箱-->
+    <string name="mailBox_type">MailBox Type：</string>
+    <string name="rebate_box">Rebate Mailbox</string>
+    <string name="rebate_note">Note：Bind the rebate mailbox ,for the rabate when the gift card sent to the mailbox</string>
+
+    <!--其他-->
+    <string name="copy">Copy</string>
+    <string name="cut">Cut</string>
+    <string name="delet">Delete</string>
+    <string name="paste">Paste</string>
+    <string name="success"> Successful</string>
+    <string name="search_hint">Enter Search Content</string>
+    <string name="double_2_exit">Double-click on the exit</string>
+    <string name="send">Send</string>
+    <string name="image">Image</string>
+    <string name="voice">Voice</string>
+    <string name="why_buy_first">商家提供免费试用商品并非完全无偿，商家希望获得以下回报：\n1、获得用户的实际购买，积累商品销量，为其他消费者提供销量引导。\n2、快速的为试用商品积累商品评价。\n为防止用户领取试用商品后不给予合理评价（或给予恶意评价），顾需要由用户先下单购买，然后再由平台返还担保金（用户下单购买所花费的费用），保证用户给予商品积极客观的评价。</string>
+    <string name="bhkzmb">所有商家发布试用活动前，都需要提供活动担保金给秒抢惠免费试用网，否则活动无法开始。如果商家以各种原因不退还用户购买费用，系统会自动将商家活动前存入的活动担保金返还给用户（用户下单购买所花费的费用）。</string>
+    <string name="other_problean">欢迎咨询在线客服：\n在线客服QQ：xxxxxxxxxxxxxx\n客服在线时间：周一至周五9:00-18:00</string>
+
+</resources>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:context="testoffpro.hmj.yibin.testoffpro.BindEmailActivity">
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:text="@string/mailBox_type" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/input_bg">
+
+        <Spinner
+            android:id="@+id/bind_mail_sp"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:padding="5dp"
+            android:paddingLeft="5dp"></Spinner>
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:padding="5dp"
+        android:text="@string/rebate_box" />
+
+    <EditText
+        android:id="@+id/bind_mail_mailBox"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/input_bg"
+        android:inputType="textEmailAddress"
+        android:paddingLeft="5dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:text="@string/rebate_note"
+        android:textColor="@color/orange_color" />
+
+    <Button
+        android:id="@+id/bind_mail_commit"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@drawable/loginbtn_bg"
+        android:onClick="Commit"
+        android:text="@string/bind_email"
+        android:textAllCaps="false"
+        android:textColor="@color/white" />
+</LinearLayout>

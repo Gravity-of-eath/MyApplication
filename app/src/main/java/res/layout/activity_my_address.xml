@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="testoffpro.hmj.yibin.testoffpro.MyAddressActivity">
+
+    <ListView
+        android:id="@+id/address_list"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:dividerHeight="20dp"
+        android:background="@color/gray0"
+        android:divider="@color/gray0"
+        android:layout_weight="1">
+    </ListView>
+
+    <Button
+        android:onClick="Add_Address"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/loginbtn_bg"
+        android:text="@string/add_address"
+        android:textColor="@color/white"
+        android:textAllCaps="false"
+        android:textSize="@dimen/text_size_16" />
+</LinearLayout>

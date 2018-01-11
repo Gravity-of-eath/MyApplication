@@ -1,0 +1,57 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="testoffpro.hmj.yibin.testoffpro.fragment.TrialFragment">
+
+    <testoffpro.hmj.yibin.testoffpro.customview.PullToRefreshView
+        android:id="@+id/home_pull2refresh"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <android.support.design.widget.TabLayout
+                        android:id="@+id/trial_tab"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_height="40dp"
+                        app:tabMode="scrollable"
+                        app:tabIndicatorColor="@color/orange_color"
+                        app:tabIndicatorHeight="3dp"
+                        app:tabSelectedTextColor="@color/orange_color"
+                        app:tabTextColor="@color/black"></android.support.design.widget.TabLayout>
+
+                    <ImageView
+                        android:id="@+id/more"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:src="@drawable/icon_flmore" />
+                </LinearLayout>
+
+                <cn.trinea.android.view.autoscrollviewpager.AutoScrollViewPager
+                    android:id="@+id/trail_autovp"
+                    android:layout_width="match_parent"
+                    android:layout_height="180dp"
+                    android:background="#0f0"></cn.trinea.android.view.autoscrollviewpager.AutoScrollViewPager>
+            </LinearLayout>
+
+        </ScrollView>
+    </testoffpro.hmj.yibin.testoffpro.customview.PullToRefreshView>
+
+</FrameLayout>

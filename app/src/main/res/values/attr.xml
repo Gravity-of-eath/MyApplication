@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <declare-styleable name="MyCalendarView">
+        <attr name="selectedbackground" format="color" />
+        <attr name="cellbackground" format="color" />
+        <attr name="titleTextSize" format="dimension" />
+        <attr name="dayTextSize" format="dimension" />
+        <attr name="titleTextColor" format="color" />
+        <attr name="dayTextColor" format="color" />
+        <attr name="topTextColor" format="color" />
+        <attr name="btomTextColor" format="color" />
+        <attr name="weekTextColor" format="color" />
+        <attr name="leftArrow" format="reference" />
+        <attr name="rightArrow" format="reference" />
+        <attr name="showTitle" format="boolean" />
+        <attr name="showEn" format="boolean" />
+        <attr name="showToday" format="color" />
+        <attr name="canChouse" format="boolean" />
+        <attr name="multipleSelect" format="boolean" />
+        <attr name="boldface" format="boolean" />
+    </declare-styleable>
+</resources>

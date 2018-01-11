@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/gray2"
+    tools:context="testoffpro.hmj.yibin.testoffpro.MyOrderActivity">
+
+    <android.support.design.widget.TabLayout
+        android:id="@+id/myorder_tab"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layoutMode="clipBounds"
+        android:background="@color/white"
+        app:tabIndicatorColor="@color/orange_color"
+        app:tabSelectedTextColor="@color/orange_color"
+        app:tabTextColor="@color/black">
+
+        <android.support.design.widget.TabItem
+            android:id="@+id/tab_trial"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="@string/trial_order"
+            />
+        <android.support.design.widget.TabItem
+            android:id="@+id/tab_com"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="@string/compaign_order" />
+        <android.support.design.widget.TabItem
+            android:id="@+id/tab_off"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="@string/off_order" />
+    </android.support.design.widget.TabLayout>
+
+    <ListView
+        android:id="@+id/myorder_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/gray2"
+        android:divider="@color/gray2"
+        android:layout_marginTop="10dp"
+        android:dividerHeight="10dp">
+
+    </ListView>
+
+
+</LinearLayout>

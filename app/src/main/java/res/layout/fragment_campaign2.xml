@@ -1,0 +1,36 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="testoffpro.hmj.yibin.testoffpro.fragment.CampaignFragment">
+
+    <testoffpro.hmj.yibin.testoffpro.customview.PullToRefreshView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TableLayout
+                    android:id="@+id/campaign_tab"
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"></TableLayout>
+
+                <cn.trinea.android.view.autoscrollviewpager.AutoScrollViewPager
+                    android:id="@+id/trail_autovp"
+                    android:layout_width="match_parent"
+                    android:layout_height="180dp" />
+            </LinearLayout>
+
+        </ScrollView>
+
+    </testoffpro.hmj.yibin.testoffpro.customview.PullToRefreshView>
+
+</FrameLayout>

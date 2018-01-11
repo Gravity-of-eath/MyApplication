@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="testoffpro.hmj.yibin.testoffpro.RegesterActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:text="@string/email_"
+            android:textColor="#ff000000"
+            android:textSize="@dimen/text_size_18" />
+
+        <EditText
+            android:id="@+id/forgetpwd_email"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/input_bg"
+            android:hint="@string/input_email"
+            android:textColorHint="@color/gray2"
+            android:inputType="textEmailAddress"
+            android:lines="1"
+            android:paddingLeft="10dp"
+            android:selectAllOnFocus="true" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:text="@string/login_pwd"
+            android:textColor="#ff000000"
+            android:textSize="@dimen/text_size_18" />
+
+        <EditText
+            android:id="@+id/forgetpwd_password"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/input_bg"
+            android:hint="@string/input_pwd"
+            android:textColorHint="@color/gray2"
+            android:inputType="textPassword"
+            android:lines="1"
+            android:paddingLeft="10dp"
+            android:selectAllOnFocus="true" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:text="@string/affirm_pwd"
+            android:textColor="#ff000000"
+            android:textSize="@dimen/text_size_18" />
+
+        <EditText
+            android:id="@+id/forgetpwd_password_affirm"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/input_bg"
+            android:hint="@string/please_affirm_pwd"
+            android:textColorHint="@color/gray2"
+            android:inputType="textPassword"
+            android:lines="1"
+            android:paddingLeft="10dp"
+            android:selectAllOnFocus="true" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:text="@string/auth_code_"
+            android:textColor="#ff000000"
+            android:textSize="@dimen/text_size_18" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:layout_marginBottom="30dp"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/forgetpwd_auth_code"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginRight="5dp"
+                android:layout_weight="1"
+                android:background="@drawable/input_bg"
+                android:hint="@string/input_auth_code"
+                android:textColorHint="@color/gray2"
+                android:inputType="number"
+                android:lines="1"
+                android:paddingLeft="5dp" />
+
+            <Button
+                android:id="@+id/forgetpwd_auth_code_iv"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:background="@drawable/loginbtn_bg"
+                android:padding="2dp"
+                android:textColor="@color/white"
+                android:paddingLeft="3dp"
+                android:textAllCaps="false"
+                android:paddingRight="3dp"
+                android:scaleType="centerCrop"
+                android:text="@string/mail_code" />
+        </LinearLayout>
+
+
+        <Button
+            android:id="@+id/forgetpwd_btn_commit"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/loginbtn_bg"
+            android:text="@string/commit"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_size_16" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/forgetpwd_login"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:autoLink="all"
+                android:text="@string/login_now_usepwd" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

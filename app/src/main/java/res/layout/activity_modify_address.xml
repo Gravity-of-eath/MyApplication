@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:context="testoffpro.hmj.yibin.testoffpro.ModifyAddressActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:text="@string/billing_address" />
+
+    <EditText
+        android:id="@+id/modify_address_name"
+        style="@style/TextViewStyle"
+        android:hint="@string/nikename" />
+
+    <EditText
+        android:id="@+id/modify_address_street"
+        style="@style/TextViewStyle"
+        android:hint="@string/street" />
+
+    <EditText
+        android:id="@+id/modify_address_city"
+        style="@style/TextViewStyle"
+        android:hint="@string/city" />
+
+    <EditText
+        android:id="@+id/modify_address_province"
+        style="@style/TextViewStyle"
+        android:hint="@string/province" />
+
+    <EditText
+        android:id="@+id/modify_address_number"
+        style="@style/TextViewStyle"
+        android:hint="@string/address_number"
+        android:inputType="number" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/input_bg">
+
+        <Spinner
+            android:id="@+id/modify_address_spinner"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="5dp" />
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/modify_address_phonenumber"
+        style="@style/TextViewStyle"
+        android:hint="@string/phone_number"
+        android:inputType="phone" />
+
+    <Button
+        android:id="@+id/modify_address_save"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/loginbtn_bg"
+        android:text="@string/save"
+        android:textAllCaps="false"
+        android:textColor="@color/white" />
+
+    <Button
+        android:id="@+id/modify_address_delete"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:layout_marginTop="5dp"
+        android:textAllCaps="false"
+        android:background="@drawable/regesterbtn_bg"
+        android:text="@string/delete" />
+</LinearLayout>

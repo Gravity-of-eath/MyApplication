@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="testoffpro.hmj.yibin.testoffpro.RegesterActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:text="@string/email_"
+            android:textColor="#ff000000"
+            android:textSize="@dimen/text_size_18" />
+
+        <EditText
+            android:id="@+id/regester_email"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/input_bg"
+            android:hint="@string/input_email"
+            android:inputType="textEmailAddress"
+            android:textColorHint="@color/gray2"
+            android:lines="1"
+            android:paddingLeft="10dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:text="@string/pwd_"
+            android:textColor="#ff000000"
+            android:textSize="@dimen/text_size_18" />
+
+        <EditText
+            android:id="@+id/regester_password"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/input_bg"
+            android:hint="@string/input_pwd"
+            android:textColorHint="@color/gray2"
+            android:inputType="textPassword"
+            android:lines="1"
+            android:paddingLeft="10dp" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:text="@string/affirm_pwd"
+            android:textColor="#ff000000"
+            android:textSize="@dimen/text_size_18" />
+
+        <EditText
+            android:id="@+id/regester_password_affirm"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/input_bg"
+            android:hint="@string/please_affirm_pwd"
+            android:textColorHint="@color/gray2"
+            android:inputType="textPassword"
+            android:lines="1"
+            android:paddingLeft="10dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:text="@string/auth_code_"
+            android:textColor="#ff000000"
+            android:textSize="@dimen/text_size_18" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:layout_marginBottom="10dp"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/regester_auth_code"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginRight="5dp"
+                android:layout_weight="1"
+                android:background="@drawable/input_bg"
+                android:hint="@string/input_auth_code"
+                android:textColorHint="@color/gray2"
+                android:inputType="number"
+                android:lines="1"
+                android:paddingLeft="5dp" />
+
+            <Button
+                android:id="@+id/auth_code"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:background="@drawable/loginbtn_bg"
+                android:paddingLeft="3dp"
+                android:paddingRight="3dp"
+                android:textAllCaps="false"
+                android:scaleType="centerCrop"
+                android:text="@string/mail_code"
+                android:textColor="@color/white" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:text="@string/inv_code"
+            android:textColor="#ff000000"
+            android:textSize="@dimen/text_size_18" />
+
+        <EditText
+            android:id="@+id/regester_inv_code"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/input_bg"
+            android:hint="@string/please_inv_code"
+            android:textColorHint="@color/gray2"
+            android:inputType="textPassword"
+            android:lines="1"
+            android:paddingLeft="10dp" />
+        <Button
+            android:id="@+id/regester_btn_regester"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/loginbtn_bg"
+            android:text="@string/free_regester"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_size_16" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/regester_login"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="@string/login_now" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+
+</LinearLayout>

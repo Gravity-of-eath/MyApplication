@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clipToPadding="true"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical">
+
+    <ProgressBar
+        android:id="@+id/progress"
+        style="@android:style/Widget.ProgressBar.Horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+        android:indeterminateOnly="false"
+        android:max="100"
+        android:progressDrawable="@drawable/progress_bg"
+        android:visibility="gone" />
+
+
+    <WebView
+        android:id="@+id/web_home"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:scrollbars="none"></WebView>
+
+
+    <View
+        android:id="@+id/indel"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/black" />
+
+    <RadioGroup
+        android:id="@+id/home_rg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="3dp"
+        android:paddingBottom="5dp"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/home_btn"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:button="@null"
+            android:drawableTop="@drawable/nav_home_s"
+            android:gravity="center_horizontal"
+            android:text="Home"
+            android:textColor="@drawable/address_duf_text" />
+
+        <RadioButton
+            android:id="@+id/trial_btn"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:button="@null"
+            android:drawableTop="@drawable/nav_trial_s"
+            android:gravity="center_horizontal"
+            android:text="Trial"
+            android:textColor="@drawable/address_duf_text" />
+
+        <RadioButton
+            android:id="@+id/cam_btn"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:button="@null"
+            android:checked="true"
+            android:drawableTop="@drawable/nav_cam_s"
+            android:gravity="center_horizontal"
+            android:text="Campaign"
+            android:textColor="@drawable/address_duf_text" />
+
+        <RadioButton
+            android:id="@+id/off_btn"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:button="@null"
+            android:drawableTop="@drawable/nav_off_s"
+            android:gravity="center_horizontal"
+            android:text="90%off"
+            android:textColor="@drawable/address_duf_text" />
+
+        <RadioButton
+            android:id="@+id/per_btn"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:button="@null"
+            android:drawableTop="@drawable/nav_per_s"
+            android:gravity="center_horizontal"
+            android:text="Personal"
+            android:textColor="@drawable/address_duf_text" />
+    </RadioGroup>
+
+
+</LinearLayout>

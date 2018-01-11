@@ -1,0 +1,69 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="testoffpro.hmj.yibin.testoffpro.fragment.BaseFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/black"
+        android:orientation="horizontal"
+        android:paddingBottom="5dp"
+        android:paddingLeft="8dp"
+        android:paddingRight="8dp"
+        android:paddingTop="5dp">
+
+        <TextView
+            android:id="@+id/base_title"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginRight="8dp"
+            android:gravity="center"
+            android:padding="2dp"
+            android:text="Tiail"
+            android:textColor="@color/white" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="@drawable/search_bg"
+            android:paddingLeft="5dp"
+            android:paddingRight="3dp"
+            android:src="@drawable/icon_search" />
+
+        <EditText
+            android:id="@+id/base_search_et"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:imeOptions="actionSearch"
+            android:hint="@string/search_hint"
+            android:lines="1"
+            android:maxLength="15"
+            android:textColorHint="@color/gray2"
+            android:maxLines="1"
+            android:singleLine="true"
+            android:paddingLeft="5dp"
+            android:gravity="center_vertical"
+            android:background="@drawable/search_text_bg" />
+
+        <TextView
+            android:id="@+id/base_note"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="5dp"
+            android:gravity="bottom|center_horizontal"
+            android:textColor="@color/white"
+            android:minWidth="40dp" />
+
+    </LinearLayout>
+    <FrameLayout
+        android:id="@+id/base_cont"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </FrameLayout>
+
+</LinearLayout>

@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    tools:context="testoffpro.hmj.yibin.testoffpro.CommonProblemsActivity">
+
+    <TextView
+        android:id="@+id/note_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/icon_list"
+        android:gravity="center"
+        android:text="1" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/note_1"
+        android:layout_alignTop="@+id/note_1"
+        android:layout_toRightOf="@+id/note_1"
+        android:gravity="center_vertical"
+        android:text="为何要先购买?"
+        android:textColor="@color/orange_color" />
+
+    <TextView
+        android:id="@+id/ddddd_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/note_1"
+        android:padding="5dp"
+        android:text="@string/why_buy_first"
+        android:layout_toRightOf="@+id/note_1" />
+    <TextView
+        android:id="@+id/note_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/icon_list"
+        android:layout_below="@+id/ddddd_1"
+        android:gravity="center"
+        android:text="2" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/note_2"
+        android:layout_alignTop="@+id/note_2"
+        android:layout_toRightOf="@+id/note_2"
+        android:gravity="center_vertical"
+        android:text="不返款怎么办?"
+        android:textColor="@color/orange_color" />
+
+    <TextView
+        android:id="@+id/ddddd_2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/note_2"
+        android:padding="5dp"
+        android:text="@string/bhkzmb"
+        android:layout_toRightOf="@+id/note_2" />
+    <TextView
+        android:id="@+id/note_3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/icon_list"
+        android:layout_below="@+id/ddddd_2"
+        android:gravity="center"
+        android:text="3" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/note_3"
+        android:layout_alignTop="@+id/note_3"
+        android:layout_toRightOf="@+id/note_3"
+        android:gravity="center_vertical"
+        android:text="还有疑问?"
+        android:textColor="@color/orange_color" />
+
+    <TextView
+        android:id="@+id/ddddd_3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/note_3"
+        android:padding="5dp"
+        android:text="@string/other_problean"
+        android:layout_toRightOf="@+id/note_2" />
+</RelativeLayout>

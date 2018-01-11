@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="auto3d2">
+        <attr name="textSize" format="dimension" />
+    </declare-styleable>
+    <declare-styleable name="PullToRefresh1">
+        <attr name="ptrRefreshableViewBackground" format="reference|color" />
+        <attr name="ptrOverScroll" format="reference|boolean" />
+        <attr name="ptrScrollingWhileRefreshingEnabled" format="reference|boolean" />
+        <attr name="ptrListViewExtrasEnabled" format="reference|boolean" />
+    </declare-styleable>
+    <declare-styleable name="LineChar">
+        <attr name="xylinecolor" format="color" />
+        <!-- xy坐标轴颜色 -->
+        <attr name="xylinewidth" format="dimension" />
+        <!-- xy坐标轴宽度 -->
+        <attr name="xytextcolor" format="color" />
+        <!-- xy坐标轴文字颜色 -->
+        <attr name="xytextsize" format="dimension" />
+        <!-- xy坐标轴文字大小 -->
+        <attr name="linecolor" format="color" />
+        <!-- 折线图中折线的颜色 -->
+        <attr name="interval" format="dimension" />
+        <!-- x轴各个坐标点水平间距 -->
+        <attr name="bgcolor" format="color" />
+        <!-- 背景颜色 -->
+    </declare-styleable>
+    <declare-styleable name="RoundAngleImageView">
+        <attr name="round" format="dimension" />
+    </declare-styleable>
+</resources>

@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="15dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="testoffpro.hmj.yibin.testoffpro.PersonInfoActivity">
+
+    <testoffpro.hmj.yibin.testoffpro.customview.RoundImageView.RoundAngleImageView
+        android:id="@+id/userinfo_icon"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        app:round="60dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="10dp"
+        android:src="@drawable/pic_user" />
+
+    <TextView
+        android:id="@+id/userinfo_nikename"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="10dp"
+        android:text="@string/nikename"
+        android:textSize="@dimen/text_size_18" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:layout_marginBottom="@dimen/item_h"
+        android:layout_marginTop="@dimen/item_h"
+        android:background="@color/list_devider_color" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="@string/shoping_account"
+        android:textSize="@dimen/text_size_16" />
+
+    <TextView
+        android:id="@+id/shoping_account"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="dasdasdasdas"
+        android:textColor="@color/hint_text_color" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:layout_marginBottom="@dimen/item_h"
+        android:layout_marginTop="@dimen/item_h"
+        android:background="@color/list_devider_color" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="@string/facebook"
+        android:textSize="@dimen/text_size_16" />
+
+    <TextView
+        android:id="@+id/facebook"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="dasdasdasdas"
+        android:textColor="@color/hint_text_color" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:layout_marginBottom="@dimen/item_h"
+        android:layout_marginTop="@dimen/item_h"
+        android:background="@color/list_devider_color" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="@string/email_"
+        android:textSize="@dimen/text_size_16" />
+
+    <TextView
+        android:id="@+id/email_"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="dasdasdasdas"
+        android:textColor="@color/hint_text_color" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:layout_marginBottom="@dimen/item_h"
+        android:layout_marginTop="@dimen/item_h"
+        android:background="@color/list_devider_color" />
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp">
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/receive_address"
+            android:textSize="@dimen/text_size_16" />
+
+        <ImageView
+            android:onClick="Edit_address"
+            android:id="@+id/edit_address"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:src="@drawable/icon_bjh" />
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/receive_address"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="dasdasdasdas"
+        android:textColor="@color/hint_text_color" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:layout_marginBottom="@dimen/item_h"
+        android:layout_marginTop="@dimen/item_h"
+        android:background="@color/list_devider_color" />
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp">
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/modify_password"
+            android:textSize="@dimen/text_size_16" />
+
+        <ImageView
+            android:onClick="Modify_password"
+            android:id="@+id/edit_password"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:src="@drawable/icon_bjh" />
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/modify_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:text="dasdasdasdas"
+        android:textColor="@color/hint_text_color" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:layout_marginBottom="@dimen/item_h"
+        android:layout_marginTop="@dimen/item_h"
+        android:background="@color/list_devider_color" />
+
+</LinearLayout>

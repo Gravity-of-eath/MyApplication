@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/trans"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/message_item_time"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/trans"
+        android:gravity="center"
+        android:paddingTop="10dp"
+        android:textColor="@color/gray3"
+        android:paddingBottom="10dp"
+        android:text="16:00" />
+
+    <TextView
+        android:id="@+id/message_item_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:padding="10dp"
+        android:background="@drawable/round_top"
+        android:text="账户操作提醒" />
+    <TextView
+        android:id="@+id/message_item_details"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/hint_text_color"
+        android:padding="10dp"
+        android:minHeight="30dp"
+        android:background="@drawable/round_bottom"
+        android:text="您于1245545是修改登录密码，如非本人操作请联系客服阿斯达发送发送啊发顺丰啊发发"/>
+</LinearLayout>

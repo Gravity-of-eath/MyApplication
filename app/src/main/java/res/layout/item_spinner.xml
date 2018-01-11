@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="@color/trans"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <TextView
+        android:id="@+id/item_spinner_text"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:background="@color/trans"
+        android:padding="5dp"
+        android:gravity="center_vertical"
+        android:text="asdasd"
+        android:layout_marginBottom="1px"/>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="@color/orange_color"/>
+
+</LinearLayout>

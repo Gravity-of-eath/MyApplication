@@ -1,0 +1,100 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <testoffpro.hmj.yibin.testoffpro.customview.PullToRefreshView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#fff"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="180dp">
+
+                    <testoffpro.hmj.yibin.testoffpro.customview.myviewpager.MylViewPager
+                        android:id="@+id/home_autovp"
+                        android:layout_width="match_parent"
+                        android:layout_height="180dp"
+                        android:background="@color/orangecolor">
+
+                    </testoffpro.hmj.yibin.testoffpro.customview.myviewpager.MylViewPager>
+
+                    <LinearLayout
+                        android:id="@+id/vp_pointer"
+                        android:layout_width="match_parent"
+                        android:layout_height="20dp"
+                        android:layout_alignParentBottom="true"
+                        android:layout_marginBottom="10dp"
+                        android:gravity="center"
+                        android:orientation="horizontal"></LinearLayout>
+                </RelativeLayout>
+
+                <LinearLayout
+                    android:id="@+id/in_ll"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/white"
+                    android:orientation="horizontal"
+                    android:paddingBottom="10dp"
+                    android:paddingTop="10dp">
+
+                    <TextView
+                        android:id="@+id/textView3"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:drawableTop="@drawable/nav_per_f"
+                        android:gravity="bottom|center_horizontal"
+                        android:text="NewUser" />
+
+                    <TextView
+                        android:id="@+id/textView4"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:drawableTop="@drawable/nav_cam_f"
+                        android:gravity="bottom|center_horizontal"
+                        android:text="Campaign" />
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:drawableTop="@drawable/nav_trial_f"
+                        android:gravity="bottom|center_horizontal"
+                        android:text="Trial" />
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:drawableTop="@drawable/nav_off_f"
+                        android:gravity="bottom|center_horizontal"
+                        android:text="90% off" />
+                </LinearLayout>
+
+                <ExpandableListView
+                    android:id="@+id/home_explistview"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                </ExpandableListView>
+            </LinearLayout>
+
+        </ScrollView>
+    </testoffpro.hmj.yibin.testoffpro.customview.PullToRefreshView>
+</LinearLayout>
